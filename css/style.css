@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header .navbar {
+    padding: 0;
+    padding-top: 22px;
+}
+
+.header .navbar .nav-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #1B0A42 !important;
+    padding: 0 20px;
+}
+
+.header .navbar .account .nav-link {
+    padding: 17px 31px;
+    padding-left: 0;
+}
+
+.header .navbar .account .nav-link.signUp {
+    padding: 17px 31px;
+    background: #4F56F1;
+    color: #fff !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+
+#banner {
+    
+}
+
+#banner .bannerText {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#banner .bannerText h1 {
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+#banner .bannerText p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 75px;
+
+}
+
+#banner .bannerText a {
+    padding: 25px 35px ;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    background: #4F56F1;
+    color: #fff !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.image{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+}
